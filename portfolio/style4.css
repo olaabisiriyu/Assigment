@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/coffee.jpg);
+  background-size: cover;
+  bacground-position: center;
+  height:100vh;
+  position: relative;
+  
+  
+}
+
+.nav-link {
+  flex: 1;
+  text-align: right;
+  background-ima
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  padding: 8px 12px;
+  position: relative;
+  flex: 1;
+  text-align: left;
+}
+
+li a {
+ color: #fff;
+ text-decoration: none;
+}
+
+
+h1  {
+  width: 70%;
+	color: #fff;
+	position: absolute;
+  font-size: 50px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}   

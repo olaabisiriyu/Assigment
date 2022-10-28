@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="workspace">
+      <div class="inner-box" id="workspace">
+
+        <div class="front-box">
+          <h2>Login</h2>
+          <form>
+            <input type="email" class="input-box" placeholder="Your email" required>
+            <input type="password" class="input-box" placeholder="Password" required>
+            <button type="submit" class="submit-btn">submit</button>
+            <input type="checkbox"><span>Remember Me</span>
+          </form>
+          <button type="button" class="btn" onclick="openRegister()">i'm New Here</button>
+          <a href="">Forget Password</a>
+        </div>
+        <div class="back-box">
+          <h2>Register</h2>
+          <form>
+            <input type="text" class="input-box" placeholder="First Name" required>
+            <input type="text" class="input-box" placeholder="last Name" required>
+            <input type="email" class="input-box" placeholder="Your email" required>
+            <input type="number" class="input-box" placeholder="Your Phone Number" required>
+            
+            
+              Your Date Of Birth <br> 
+              <select name="Month">
+                <option value="month">Month</option>
+                <option value="january">january</option>
+                <option value="February">February</option>
+              </select>
+  
+              <select name="Days">
+                <option value="days">Days</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+  
+              <select name="Year">
+                <option value="year">Year</option>
+                <option value="1985">1985</option>
+                <option value="1986">1986</option>
+              </select>
+            
+            Favourite color <br>
+            <select name="Color">
+                <option value="color">Color</option>
+                <option value="yellow">yellow</option>
+                <option value="blue">blue</option>
+              </select>
+            <input type="Gender" class="input-box" placeholder="Gender" required>
+            <input type="radio" name="Gender">Male<input type="radio" name="Gender">Female
+            <input type="password" class="input-box" placeholder=" Create Password" required>
+            <button type="submit" class="submit-btn">submit</button>
+            <input type="checkbox"><span>Remember Me</span>
+          </form>
+          <button type="button" class="btn" onclick="openLogin()">i've an account</button>
+          <a href="">Forget Password</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+    var workspace = document.getElementById("workspace");
+
+    function openRegister() {
+      workspace.style.transform = "rotateY(-180deg)"
+    }
+
+    function openLogin() {
+      workspace.style.transform = "rotateY(0deg)"
+    }
+
+
+  </script>
+
+
+
+</body>
+
+</html>

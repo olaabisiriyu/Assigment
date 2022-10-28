@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/coffee.jpg);
+  background-size: cover;
+  bacground-position: center;
+  height:100vh;
+  position: relative;
+  
+  
+}
+
+.nav-link {
+  flex: 1;
+  text-align: right;
+  background-ima
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  padding: 8px 12px;
+  position: relative;
+  flex: 1;
+  text-align: left;
+}
+
+li a {
+ color: #fff;
+ text-decoration: none;
+}
+
+h1 {
+  font-size: 70px;
+  color: #fff;
+  width: 20%;
+ 
+}
+h2 {
+  font-size: 40px;
+  color: #fff;
+  line-height: 70px;
+ 
+}
+
+p {
+  font-size: 20px;
+  color: #fff;
+  
+}
+.column {
+  float: left;
+  width: 50%;
+  background-color: hsl(303, 10%, 53%);
+  margin-right: 20px;
+  border-radius: 8px;
+  margin-top: 120px;
+  padding-left: 20px;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  background-color: hsl(303, 10%, 53%);
+  border-radius: 8px;
+  margin-top: 140px;
+  padding-left: 20px;
+  margin-left: 100px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,82 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.flex-container > div {
+  background-color: darkorange;
+  width: 300px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  overflow-x: hidden;
+}
+
+.flex-container > div1 {
+  background-color: #2effe7;
+  width: 100px;
+  line-height: 75px;
+
+}
+
+h2 {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  
+}
+
+p {
+  color: whitesmoke;
+  width: 60%;
+  margin-left: 40px;
+  margin-bottom: 70px;
+}  
+
+button {
+  padding-right: 20px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  color: darkorange;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.button1 {
+  padding-right: 20px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  color: #088F8F;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+.button2 {
+  padding-right: 20px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  color: #011B10;;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+
+  
